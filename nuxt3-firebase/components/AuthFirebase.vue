@@ -8,7 +8,7 @@
           v-model="form.email"
           class="input"
           type="email"
-          placeholder="john@gmail.com"
+          placeholder="Enter email"
           autocomplete="false" />
         <span class="icon is-small is-left">
           <i class="fas fa-envelope"></i>
@@ -23,7 +23,7 @@
             v-model="form.password"
             class="input"
             type="password"
-            placeholder="*************"
+            placeholder="Enter password"
             autocomplete="false" />
         </div>
       </div>
