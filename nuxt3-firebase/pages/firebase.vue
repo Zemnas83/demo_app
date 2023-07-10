@@ -27,7 +27,7 @@
             </div>
             <div class="column is-4" v-if="firebaseUser">
               <p class="subtitle">Firebase Auth Current User</p>
-              <pre>{{ firebaseUser }}</pre>
+              <pre></pre>
               <button class="button mt-4" @click="signOutUser">Sign Out</button>
             </div>
             <div class="column is-4 has-text-centered" v-else>
